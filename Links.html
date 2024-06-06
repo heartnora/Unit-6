@@ -1,0 +1,191 @@
+<!-- By Jaydon kimana --> 
+<!-- Stylesheet refferences and stylesheet used is "https://www.w3schools.com/w3css/4/w3.css" --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans</title>
+    <link rel="icon" type="image/x-icon" href="Assignment 2/coffee-beans-removebg-preview.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+        body, html {
+            height: 100%;
+            font-family: "Inconsolata", sans-serif;
+        }
+
+        .bgimg {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 90%;
+            background-image: url("https://static.unlikekinds.com/l-61b40883-60c0-4d9e-859f-8020dba913f5-aRnJT1R.jpg");
+            min-height: 100%;
+        }
+
+        .partner-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .partner-logos img {
+            margin: 0 10px;
+            width: 145px;
+            height: auto;
+        }
+
+        .course-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .course-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .course-button {
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        .course-button h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .course-button p {
+            margin-bottom: 20px;
+        }
+
+        .course-button a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation bar --><!-- STAYS THE SAME THROUGHOUT ALL PAGES -->
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+        <div class="w3-col m1">
+            <a href="index.html" class="w3-button w3-block w3-black">Home</a>
+        </div>
+        <div class="w3-col m3">
+            <a href="CProfile.html" class="w3-button w3-block w3-black">Company Profile</a>
+        </div>
+        <div class="w3-col m2">
+            <a href="Employees.html" class="w3-button w3-block w3-black">Employees</a>
+        </div>
+        <div class="w3-col m2">
+            <a href="Vacancies.html" class="w3-button w3-block w3-black">Vacancies</a>
+        </div>
+        <div class="w3-col m2">
+            <a href="JobSpecifications.html" class="w3-button w3-block w3-black">Job Specifications</a>
+        </div>
+        <div class="w3-col m2">
+            <a href="vacancy.html" class="w3-button w3-block w3-black">Applications</a>
+        </div>
+    </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-white" id="home">
+    <div class="w3-display-bottomleft w3-center w3-padding-large w3-small">
+        <span class="w3-tag">Empowering Innovation</span>
+    </div>
+    <div class="w3-display-middle w3-center">
+        <img src="images/Links-removebg-preview.png" alt="CoffeeIcon" width="1100" height="1100">
+    </div>
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+        <span class="w3-text-black">The Hot Beans (c) Copyright Protected Rights</span>
+    </div>
+</header>
+
+<!-- BGC // Background Color -->
+<div class="w3-sand w3-white w3-large">
+
+
+    <p> Below we have provided you with a few insides into bootcamps and courses that can skyrocket your knowledge in the IT world. We have also added courses what most companies are looking for, and most importantly what were looking for in candidates for our company, Hot Beans.</p>
+    <!-- Links and Courses Section -->
+    <div class="course-section">
+        <h2>Basic Links and Courses</h2>
+
+        <div class="course-button">
+            <h3>W3Schools</h3>
+            <p>W3Schools is a web developer information website, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and Bootstrap.</p>
+            <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+        </div>
+
+        <div class="course-button">
+            <h3>MDN Web Docs</h3>
+            <p>MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It is a comprehensive resource for developers.</p>
+            <a href="https://developer.mozilla.org" target="_blank">Visit MDN Web Docs</a>
+        </div>
+
+        <div class="course-button">
+            <h3>freeCodeCamp</h3>
+            <p>freeCodeCamp is a nonprofit organization that offers free coding lessons and projects. It covers web development, data visualization, machine learning, and more.</p>
+            <a href="https://www.freecodecamp.org" target="_blank">Visit freeCodeCamp</a>
+        </div>
+
+        <h2>Advanced Links and Courses</h2>
+
+        <!-- Advanced Bootcamps and Certifications -->
+        <div class="course-button">
+            <h3>CompTIA A+ Certification</h3>
+            <p>The CompTIA A+ certification is an entry-level certification for IT professionals. It covers essential IT skills and knowledge necessary for various IT roles.</p>
+            <a href="https://www.comptia.org/certifications/a" target="_blank">Learn More</a>
+        </div>
+
+        <div class="course-button">
+            <h3>CCNA (Cisco Certified Network Associate)</h3>
+            <p>CCNA is a certification from Cisco that validates the ability to install, configure, operate, and troubleshoot medium-size routed and switched networks.</p>
+            <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html" target="_blank">Learn More</a>
+        </div>
+
+        <div class="course-button">
+            <h3>AWS Certified Solutions Architect</h3>
+            <p>AWS Certified Solutions Architect certification demonstrates knowledge and skills in designing, deploying, and managing applications on Amazon Web Services (AWS) platforms.</p>
+            <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank">Learn More</a>
+        </div>
+
+        <h2>Superior Links and Courses</h2>
+
+        <!-- High-Tier Courses and Certifications -->
+        <div class="course-button">
+            <h3>Certified Information Systems Security Professional (CISSP)</h3>
+            <p>The CISSP certification is an advanced-level certification for IT pros serious about careers in information security. It covers critical topics in security and risk management.</p>
+            <a href="https://www.isc2.org/Certifications/CISSP" target="_blank">Learn More</a>
+        </div>
+
+        <div class="course-button">
+            <h3>Certified Ethical Hacker (CEH)</h3>
+            <p>The CEH certification validates an IT professional's skills in ethical hacking techniques and methodologies. It's an advanced certification for security professionals.</p>
+            <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" target="_blank">Learn More</a>
+        </div>
+
+        <div class="course-button">
+            <h3>Google Cloud Professional Data Engineer</h3>
+            <p>The Google Cloud Professional Data Engineer certification is for professionals who design, build, maintain, and troubleshoot data processing systems on Google Cloud.</p>
+            <a href="https://cloud.google.com/certification/data-engineer" target="_blank">Learn More</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
